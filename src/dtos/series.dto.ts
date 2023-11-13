@@ -1,18 +1,9 @@
 export class SeriesDTO {
-  private _id: string
-
-  private _name: string
-
-  public get name(): string {
-    return this._name
-  }
-
-  public get id(): string {
-    return this._id
-  }
+  public id: string
+  public name: string
 
   constructor({ id, name }: SeriesDTO) {
-    this._id = id
-    this._name = name
+    this.id = id
+    this.name = name
   }
 }

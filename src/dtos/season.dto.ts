@@ -1,23 +1,11 @@
 export class SeasonDTO {
-  private _id: string
-  private _number: number
-  private _serieId: string
-
-  public get id(): string {
-    return this._id
-  }
-
-  public get number(): number {
-    return this._number
-  }
-
-  public get serieId(): string {
-    return this._serieId
-  }
+  public id: string
+  public number: number
+  public serieId: string
 
   constructor({ id, number, serieId }: SeasonDTO) {
-    this._id = id
-    this._number = number
-    this._serieId = serieId
+    this.id = id
+    this.number = number
+    this.serieId = serieId
   }
 }
