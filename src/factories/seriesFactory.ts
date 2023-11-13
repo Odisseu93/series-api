@@ -1,4 +1,5 @@
 import { EpisodeDTO, SeasonDTO, SeriesDTO } from '../dtos'
+import { GetSeriesDataDTO } from '../dtos/getSeriesData.dto'
 import { SeriesFactoryDTO } from '../dtos/seriesFactory.dto'
 
 export class SeriesFactory implements SeriesFactoryDTO {
@@ -34,9 +35,9 @@ export class SeriesFactory implements SeriesFactoryDTO {
       })
 
   registerSeries({ id, name }: SeriesDTO): SeriesDTO {
-    const data = Object.assign({ id, name }, {}) as SeriesDTO
+    if (!id || !name) throw new Error('Fill in the id and name of the series!')
 
-    if (!id || !name) throw Error('Fill in the id and name of the series!')
+    const data = Object.assign({ id, name }, {}) as SeriesDTO
 
     const series = new SeriesDTO(data)
 
@@ -47,6 +48,9 @@ export class SeriesFactory implements SeriesFactoryDTO {
 
   registerSeason(data: SeasonDTO, serie: SeriesDTO): SeasonDTO {
     const { id, number, serieId } = data
+
+    if (!id || id == '' || number <= 0 || !serieId || serieId == '')
+      throw Error('Missing or invalid property!')
 
     const serieDoesNotExist = !serie['id'].includes(serieId)
 
@@ -66,15 +70,28 @@ export class SeriesFactory implements SeriesFactoryDTO {
     serie: SeriesDTO,
     season: SeasonDTO
   ): EpisodeDTO {
-    const { id, name, number, serieId, seasonId } = props
+    const { id, name, number, seriesId, seasonId } = props
+
+    if (
+      !id ||
+      id == '' ||
+      !name ||
+      name === '' ||
+      number <= 0 ||
+      !seriesId ||
+      seriesId === '' ||
+      !seasonId ||
+      seasonId === ''
+    )
+      throw Error('Missing or invalid property!')
 
     const serieDoesNotExist =
-      !serie['id'].includes(serieId) || !season['id'].includes(seasonId)
+      !serie['id'].includes(seriesId) || !season['id'].includes(seasonId)
 
     if (serieDoesNotExist)
       throw new Error("This TV show or this season doesn't exist!")
 
-    const epsodioData = { id, name, number, serieId, seasonId } as EpisodeDTO
+    const epsodioData = { id, name, number, seriesId, seasonId } as EpisodeDTO
 
     const episode = new EpisodeDTO(epsodioData)
 
@@ -96,11 +113,7 @@ export class SeriesFactory implements SeriesFactoryDTO {
   getSeriesData() {
     const seriesData = this._series.map(({ id: seriesId, name }) => {
       const seasonsData = this._getSeasonsData(seriesId)
-      return {
-        id: seriesId,
-        name,
-        seasons: seasonsData,
-      }
+      return new GetSeriesDataDTO(seriesId, name, seasonsData)
     })
 
     return JSON.stringify(seriesData)
