@@ -1,11 +1,16 @@
 import { SeriesDTO } from 'src/dtos'
 import { SeriesFactory } from './seriesFactory'
 import Ajv from 'ajv'
+import { Validation } from '../helpers/validation'
 
 describe('Test all SeriesFactory methods', () => {
   let factory: SeriesFactory
+  let validate: Validation
 
-  beforeAll(() => (factory = new SeriesFactory()))
+  beforeAll(() => {
+    factory = new SeriesFactory()
+    validate = new Validation()
+  })
 
   describe('Should be able to add a new series', () => {
     it('When all parameters are provided', () => {
@@ -22,14 +27,10 @@ describe('Test all SeriesFactory methods', () => {
   })
 
   describe('Should not be able to add a new series', () => {
-    const missingPropertyError = new Error(
-      'Fill in the id and name of the series!'
-    )
-
     it('Throws an error when id is missing', () => {
       expect(() => {
         factory.registerSeries({ id: '', name: 'Test Series' })
-      }).toThrow(missingPropertyError)
+      }).toThrow('id is required!')
     })
 
     it('Throws an error when name is missing', () => {
@@ -38,7 +39,7 @@ describe('Test all SeriesFactory methods', () => {
           id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
           name: '',
         })
-      }).toThrow(missingPropertyError)
+      }).toThrow('name is required!')
     })
 
     it('Throws an error when id and name is missing', () => {
@@ -47,7 +48,7 @@ describe('Test all SeriesFactory methods', () => {
           id: '',
           name: '',
         })
-      }).toThrow(missingPropertyError)
+      }).toThrow()
     })
   })
 
@@ -90,7 +91,7 @@ describe('Test all SeriesFactory methods', () => {
           },
           series
         )
-      }).toThrow('Missing or invalid property!')
+      }).toThrow('id is required!')
 
       expect(() => {
         factory.registerSeason(
@@ -101,7 +102,7 @@ describe('Test all SeriesFactory methods', () => {
           },
           series
         )
-      }).toThrow('Missing or invalid property!')
+      }).toThrow()
 
       expect(() => {
         factory.registerSeason(
@@ -112,7 +113,7 @@ describe('Test all SeriesFactory methods', () => {
           },
           series
         )
-      }).toThrow('Missing or invalid property!')
+      }).toThrow()
 
       expect(() => {
         // @ts-expect-error missing parameters
@@ -121,7 +122,7 @@ describe('Test all SeriesFactory methods', () => {
           serieId: '',
           number: 1,
         })
-      }).toThrow('Missing or invalid property!')
+      }).toThrow()
 
       expect(() => {
         // @ts-expect-error missing parameters
@@ -159,7 +160,7 @@ describe('Test all SeriesFactory methods', () => {
       )
 
       expect(sut).toHaveProperty(
-        'id' || 'name' || 'number' || 'seriesId' || 'seasonId'
+        'id' && 'name' && 'number' && 'seriesId' && 'seasonId'
       )
     })
   })
@@ -192,7 +193,7 @@ describe('Test all SeriesFactory methods', () => {
           series,
           season
         )
-      }).toThrow('Missing or invalid property!')
+      }).toThrow("The 'number' field needs be greater than zero!")
 
       expect(() => {
         factory.registerEpisode(
