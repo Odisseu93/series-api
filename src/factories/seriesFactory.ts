@@ -1,6 +1,10 @@
+import { Validation } from '../helpers/validation'
+
 import { EpisodeDTO, SeasonDTO, SeriesDTO } from '../dtos'
 import { GetSeriesDataDTO } from '../dtos/getSeriesData.dto'
 import { SeriesFactoryDTO } from '../dtos/seriesFactory.dto'
+
+const validate = new Validation()
 
 export class SeriesFactory implements SeriesFactoryDTO {
   private _series: SeriesDTO[]
@@ -35,7 +39,9 @@ export class SeriesFactory implements SeriesFactoryDTO {
       })
 
   registerSeries({ id, name }: SeriesDTO): SeriesDTO {
-    if (!id || !name) throw new Error('Fill in the id and name of the series!')
+    validate.required(id, 'id')
+    validate.isUUID(id)
+    validate.required(name, 'name')
 
     const data = Object.assign({ id, name }, {}) as SeriesDTO
 
@@ -49,8 +55,12 @@ export class SeriesFactory implements SeriesFactoryDTO {
   registerSeason(data: SeasonDTO, serie: SeriesDTO): SeasonDTO {
     const { id, number, serieId } = data
 
-    if (!id || id == '' || number <= 0 || !serieId || serieId == '')
-      throw Error('Missing or invalid property!')
+    validate.required(id, 'id')
+    validate.isUUID(id)
+    validate.required(number, 'number')
+    validate.greaterThanZero(number, 'number')
+    validate.required(serieId, 'serieId')
+    validate.isUUID(serieId)
 
     const serieDoesNotExist = !serie['id'].includes(serieId)
 
@@ -72,18 +82,13 @@ export class SeriesFactory implements SeriesFactoryDTO {
   ): EpisodeDTO {
     const { id, name, number, seriesId, seasonId } = props
 
-    if (
-      !id ||
-      id == '' ||
-      !name ||
-      name === '' ||
-      number <= 0 ||
-      !seriesId ||
-      seriesId === '' ||
-      !seasonId ||
-      seasonId === ''
-    )
-      throw Error('Missing or invalid property!')
+    validate.required(id, 'id')
+    validate.isUUID(id)
+    validate.required(number, 'number')
+    validate.greaterThanZero(number, 'number')
+    validate.required(name, 'name')
+    validate.isUUID(seriesId)
+    validate.isUUID(seasonId)
 
     const serieDoesNotExist =
       !serie['id'].includes(seriesId) || !season['id'].includes(seasonId)
