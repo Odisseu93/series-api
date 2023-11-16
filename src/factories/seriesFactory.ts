@@ -17,24 +17,36 @@ export class SeriesFactory implements SeriesFactoryDTO {
     this._episodes = []
   }
 
-  formatSeassons = (seriesId: string, seriesList: SeasonDTO[]) =>
-    seriesList
-      .filter(({ id }) => id === seriesId)
-      .map(({ id: seasonId, number: seasonNumber }) => {
-        const episodesData = this._getEpisodesData(seasonId)
+  private _formatSeassons = (seriesId: string, seasonList: SeasonDTO[]) =>
+    seasonList
+      .filter((season) => season.serieId === seriesId)
+      .map((season) => {
+        const episodesData = this._getEpisodesData(season.id)
         return {
-          n: seasonNumber,
+          n: season.number,
           episodes: episodesData,
         }
       })
+  // .filter(({ id }) => id === seriesId)
+  // .map(({ id: seasonId, number: seasonNumber }) => {
+  //   const episodesData = this._getEpisodesData(seasonId)
+  //   return {
+  //     n: seasonNumber,
+  //     episodes: episodesData,
+  //   }
+  // })
 
-  formatEpisodes = (currentSeasonId: string, episodesList: EpisodeDTO[]) =>
+  private _formatEpisodes = (
+    currentSeasonId: string,
+    episodesList: EpisodeDTO[]
+  ) =>
     episodesList
       .filter(({ seasonId }) => seasonId === currentSeasonId)
-      .map(({ name, number: episodeNumber }) => {
+      .map(({ name, thumb, number: episodeNumber }) => {
         return {
           n: episodeNumber,
           name,
+          thumb,
         }
       })
 
@@ -80,7 +92,7 @@ export class SeriesFactory implements SeriesFactoryDTO {
     serie: SeriesDTO,
     season: SeasonDTO
   ): EpisodeDTO {
-    const { id, name, number, seriesId, seasonId } = props
+    const { id, name, thumb, number, seriesId, seasonId } = props
 
     validate.required(id, 'id')
     validate.isUUID(id)
@@ -96,7 +108,14 @@ export class SeriesFactory implements SeriesFactoryDTO {
     if (serieDoesNotExist)
       throw new Error("This TV show or this season doesn't exist!")
 
-    const epsodioData = { id, name, number, seriesId, seasonId } as EpisodeDTO
+    const epsodioData = {
+      id,
+      name,
+      thumb,
+      number,
+      seriesId,
+      seasonId,
+    } as EpisodeDTO
 
     const episode = new EpisodeDTO(epsodioData)
 
@@ -106,19 +125,19 @@ export class SeriesFactory implements SeriesFactoryDTO {
   }
 
   private _getSeasonsData(seriesId: string) {
-    const seasonsData = this.formatSeassons(seriesId, this._seasons)
+    const seasonsData = this._formatSeassons(seriesId, this._seasons)
     return seasonsData
   }
 
   private _getEpisodesData(seasonId: string) {
-    const episodesData = this.formatEpisodes(seasonId, this._episodes)
+    const episodesData = this._formatEpisodes(seasonId, this._episodes)
     return episodesData
   }
 
   getSeriesData() {
-    const seriesData = this._series.map(({ id: seriesId, name }) => {
-      const seasonsData = this._getSeasonsData(seriesId)
-      return new GetSeriesDataDTO(seriesId, name, seasonsData)
+    const seriesData = this._series.map(({ id, name }) => {
+      const seasonsData = this._getSeasonsData(id)
+      return new GetSeriesDataDTO(id, name, seasonsData)
     })
 
     return JSON.stringify(seriesData)
