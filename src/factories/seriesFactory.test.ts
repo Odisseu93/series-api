@@ -1,15 +1,12 @@
 import { SeriesDTO } from 'src/dtos'
 import { SeriesFactory } from './seriesFactory'
 import Ajv from 'ajv'
-import { Validation } from '../helpers/validation'
 
 describe('Test all SeriesFactory methods', () => {
   let factory: SeriesFactory
-  let validate: Validation
 
   beforeAll(() => {
     factory = new SeriesFactory()
-    validate = new Validation()
   })
 
   describe('Should be able to add a new series', () => {
@@ -151,6 +148,8 @@ describe('Test all SeriesFactory methods', () => {
         {
           id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
           name: 'pilot',
+          thumb:
+            'https://m.media-amazon.com/images/M/MV5BMzE1Y2M5MWItOTUyNC00MjhlLWE3YWItMTgxNjdiYWEyNjc3XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg',
           number: 1,
           seriesId: series.id,
           seasonId: season.id,
@@ -313,6 +312,7 @@ describe('Test all SeriesFactory methods', () => {
                       properties: {
                         n: { type: 'number' },
                         name: { type: 'string' },
+                        thumb: { type: 'string' },
                       },
                       required: ['n', 'name'],
                     },
