@@ -1,0 +1,119 @@
+{
+    "episodios": [
+        {
+            "name": "Meet the New Boss",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTQwNTg5MjMxNl5BMl5BanBnXkFtZTcwMTk4MjA4Ng@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Hello, Cruel World",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjA4MzMwODgwMl5BMl5BanBnXkFtZTcwNjg4MjA4Ng@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Girl Next Door",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTU3NDEzMjQwMl5BMl5BanBnXkFtZTcwODU5ODg4Ng@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Defending Your Life",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODI5ODcyOWItOTg0Yy00YmJhLWE1NmMtYjI3YTUxYWI4OGYyXkEyXkFqcGdeQXVyNjc5ODUwMjM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Shut Up, Dr. Phil",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjE5Njk3ODc1Ml5BMl5BanBnXkFtZTcwNzQwNjE5Ng@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Slash Fiction",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODI0MjMwMjczMl5BMl5BanBnXkFtZTcwMzM0Njc5Ng@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Mentalists",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjE0NDYxNzUzMl5BMl5BanBnXkFtZTcwNjA4MTEwNw@@._V1_QL75_UX500_CR0,281,500,281_.jpg"
+        },
+        {
+            "name": "Season Seven, Time for a Wedding!",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTk4MTY4MDE3N15BMl5BanBnXkFtZTcwNDAyMDQwNw@@._V1_QL75_UX500_CR0,22,500,281_.jpg"
+        },
+        {
+            "name": "How to Win Friends and Influence Monsters",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzRjNzNkMDEtMTU0OC00OTQ5LWFiYmUtNTQ4M2Y4YjM3M2YxXkEyXkFqcGdeQXVyNTgyMDg1MjQ@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Death's Door",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzU2ZjEwMmEtOTA5OC00ZGRkLWI4NjItZmMyOTVhOGFkZDFkXkEyXkFqcGdeQXVyNTgyMDg1MjQ@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Adventures in Babysitting",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTEyNzI0NjA1OTZeQTJeQWpwZ15BbWU3MDUwMjkyMjc@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Time After Time",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTMyODUwMTYyMV5BMl5BanBnXkFtZTcwNTQ5ODUyNw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Slice Girls",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjEwODk2NjY0M15BMl5BanBnXkFtZTcwNzUwMjUzNw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Plucky Pennywhistle's Magical Menagerie",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTk5ODk4Mjk3Ml5BMl5BanBnXkFtZTcwNDA0NTgzNw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Repo Man",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOTc5NTM2OTY2M15BMl5BanBnXkFtZTcwMjI1NjE0Nw@@._V1_QL75_UX500_CR0,46,500,281_.jpg"
+        },
+        {
+            "name": "Out with the Old",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTQ4NTc4NjY1M15BMl5BanBnXkFtZTcwMjA0NTQ1Nw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Born-Again Identity",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjlkMzNmNzUtZTdmYy00ZmQyLWE2YzEtY2VkYTRlYmY0ZWJhXkEyXkFqcGdeQXVyOTA5NjI3MzA@._V1_QL75_UX500_CR0,183,500,281_.jpg"
+        },
+        {
+            "name": "Party On, Garth",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjE1OTU5NzY5NF5BMl5BanBnXkFtZTcwMjg5MDE2Nw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Of Grave Importance",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BN2YzOTExMjQtMmE4Mi00Yjc3LTk4YjItNDJjMDg4NTk2NTBlXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Girl with the Dungeons and Dragons Tattoo",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTQxNTczODQ3NV5BMl5BanBnXkFtZTcwMTA3MjI3Nw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Reading is Fundamental",
+            "number": 21,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTc0Mjk1MzkxNF5BMl5BanBnXkFtZTcwNzAzMzQ3Nw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "There Will Be Blood",
+            "number": 22,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTQxODYyMzMyMV5BMl5BanBnXkFtZTcwNjY3OTg3Nw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Survival of the Fittest",
+            "number": 23,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTM5MDM2MjAzNV5BMl5BanBnXkFtZTcwNTc3OTg3Nw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        }
+    ]
+}

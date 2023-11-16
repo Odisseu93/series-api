@@ -1,0 +1,84 @@
+{
+    "episodios": [
+        {
+            "name": "The Magnificent Seven",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOWIzOTU4YjUtNjE3YS00MDUxLWJmYmMtNjFkODcxOTUxODdiXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "The Kids Are Alright",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYTFhMTRhMDAtZjc3NC00NWJjLTlhNjUtYTUyNjMwNjY4ZWY2XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,236,500,281_.jpg"
+        },
+        {
+            "name": "Bad Day at Black Rock",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNmY5NDc4MDUtYTY2Mi00ZTVlLWExMjktOGY4ODIxMzQxYzhmXkEyXkFqcGdeQXVyNDUxMjE5NDc@._V1_QL75_UY281_CR4,0,500,281_.jpg"
+        },
+        {
+            "name": "Sin City",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjRlYmIwNWEtOGVmYS00Y2JjLTljODUtNDQ3NjFlOTQ4ZTdmXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Bedtime Stories",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzFlNzg4MWMtNWQ2Ni00OGZhLTkzYzYtZWIxNmY2N2ZjMDkyXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,236,500,281_.jpg"
+        },
+        {
+            "name": "Red Sky at Morning",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjc3YmQ5ZGEtNWFjMS00ODQ0LWE1YTktZDgwMGI5NzBmNzEzXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,236,500,281_.jpg"
+        },
+        {
+            "name": "Fresh Blood",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzVjNTVlNjAtODhmOC00NmNhLTg2MGItN2RmNjE1MjlkOWVlXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "A Very Supernatural Christmas",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMGZjY2JlNDMtOTdkYy00ZjNjLWIzNTktOTc4MTUyOTZiZDdhXkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_QL75_UX500_CR0,61,500,281_.jpg"
+        },
+        {
+            "name": "Malleus Maleficarum",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTg3ZmU3M2QtYzhkNC00MDdkLTk0NDEtZDcwY2UyMzFlN2FkXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Dream a Little Dream of Me",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjM3OWYxOWQtZjM0OC00MThhLWI4ZmQtMjEwZDhjY2Q1NGZjXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Mystery Spot",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDZiMDZhNzEtMmZjNi00YmI2LTk0ZTYtMDY4ZDA0YTgyMjAxXkEyXkFqcGdeQXVyMjIxNzAyNzc@._V1_QL75_UY281_CR3,0,500,281_.jpg"
+        },
+        {
+            "name": "Jus in Bello",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNmZiYTUyNmUtMGI0Yi00Y2VjLTk1NTMtNzNjN2FkMzZiNWU5XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Ghostfacers",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNmNjZWYxYTctMzhkMC00OGZhLWIzY2ItNWZjNTU0OWQwMDRiXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Long Distance Call",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzk2ZjhiMzAtNzA0ZC00YTNjLWJmZTMtN2M1NWQ2N2U5MmExXkEyXkFqcGdeQXVyODA5ODcxNDk@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Time Is on My Side",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYmNmNWFhNTItMDRjNS00ODA4LTlkNzYtOWMwYWE1YzAzYjkwXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "No Rest for the Wicked",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTc5NDc2OTg3M15BMl5BanBnXkFtZTcwNzk0ODU4MQ@@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        }
+    ]
+}

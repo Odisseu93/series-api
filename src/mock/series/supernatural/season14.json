@@ -1,0 +1,104 @@
+{
+    "episodios": [
+        {
+            "name": "Stranger in a Strange Land",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BY2I2OWMzMjMtNTZiNS00NDBkLWI2YmEtZjExMTMxOWRlYWQ4XkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Gods and Monsters",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGFhNWRmNzctOThjYy00OWIxLTg2MjQtOTA5YzQ4YjNmNmM5XkEyXkFqcGdeQXVyOTM3NzQ1Mzc@._V1_QL75_UX500_CR0,234,500,281_.jpg"
+        },
+        {
+            "name": "The Scar",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDAxZDliYjEtZWRiNy00MWFkLWFlNTYtZGM1MTJjOGI2MWE0XkEyXkFqcGdeQXVyOTM3NzQ1Mzc@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Mint Condition",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYTAxNmYzZGUtYzlhOC00MGNmLWEwYzctNWE5N2UyZWM1OWIzXkEyXkFqcGdeQXVyOTM3NzQ1Mzc@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Nightmare Logic",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNGYwMTRlN2MtY2RkZC00MmZhLTllODctMTdiMTJjODk0OTI2XkEyXkFqcGdeQXVyOTM3NzQ1Mzc@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Optimism",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjkxMDExOGUtOTVhOS00YzlmLTlkZmMtODAwNmEwYmJiMDM4XkEyXkFqcGdeQXVyOTM3NzQ1Mzc@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Unhuman Nature",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzM2MTI2YWQtOWNiNy00MmFhLTlhNDktNjZkZjI3YThjYzVmXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Byzantium",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMThmYzdjOTMtZTY2ZS00MjY1LTg0OGItYjA0NjIxODQ3MzBjXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Spear",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjNjYjNlMTMtYjg5Mi00YWMzLWJkMzQtNzc0YWZhNTgzY2I3XkEyXkFqcGdeQXVyOTU0NzgyNTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Nihilism",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMGUyNDc1YTAtMjkyZS00NmNjLTgxOGYtODU1Zjk3ZDgzZjQ0XkEyXkFqcGdeQXVyOTU0NzgyNTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Damaged Goods",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYjUzNDIwODktYjkwNS00ZDRmLWJkODMtMzRjY2ExOGJiYmRhXkEyXkFqcGdeQXVyNzQ0NzE5MDE@._V1_QL75_UX500_CR0,49,500,281_.jpg"
+        },
+        {
+            "name": "Prophet and Loss",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNWY5MGM0YzktNmU5My00NzJkLTg0ODctMmQ3YjVkNTc5OGIyXkEyXkFqcGdeQXVyOTc3NDkxNzU@._V1_QL75_UY281_CR34,0,500,281_.jpg"
+        },
+        {
+            "name": "Lebanon",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOThjOWNlOTgtN2EzNi00YTlkLWJiODYtOGNhOTU3MmY3ZjE4XkEyXkFqcGdeQXVyMjI4MDAwMjA@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Ouroboros",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYmMwODI0MTQtNDk1OS00YzRhLTkwMjktOWFmMzQ2YzhiMjZiXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX500_CR0,38,500,281_.jpg"
+        },
+        {
+            "name": "Peace of Mind",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTcyZDhkOWYtMDI5Zi00YzZjLTk0YjYtYThiYjYyNzgxNjg0XkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Don't Go in the Woods",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYjNlZWY4ODgtZTgzYi00ZTFiLWFhZWMtMDA2YTAwZjQ3NTRmXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Game Night",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMmY3MDliYWYtYzY5OC00NWQwLWEyNWQtZWY5NGU1NzRjYWQzXkEyXkFqcGdeQXVyOTUxMzQyOTc@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Absence",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzVkMWY0YzQtZTI5Ni00YmJlLTkzMDMtOGIxNWJjMTE1YjM4XkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Jack in the Box",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGE4M2QzNTktMWUzMS00ODc2LWI4NzUtYWUyNGZjMjhmMWY0XkEyXkFqcGdeQXVyOTUxMzQyOTc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Moriah",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzA2NTM0OTEtOTY4YS00NzU2LTg3OTUtOTVkZWNmMDVhZjMzXkEyXkFqcGdeQXVyOTU0NzgyNTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        }
+    ]
+}

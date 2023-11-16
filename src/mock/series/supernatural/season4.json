@@ -1,0 +1,114 @@
+{
+    "episodios": [
+        {
+            "name": "Lazarus Rising",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjAyMjAwNTk5OV5BMl5BanBnXkFtZTcwOTk3NzU5MQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Are You There, God? It's Me, Dean Winchester",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTc2NTM1MjM1MV5BMl5BanBnXkFtZTcwMjk3OTU5MQ@@._V1_QL75_UX500_CR0,27,500,281_.jpg"
+        },
+        {
+            "name": "In the Beginning",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTY3MzM2MzExOV5BMl5BanBnXkFtZTcwMjg4MTc5MQ@@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Metamorphosis",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjA2NDk4NDIyNV5BMl5BanBnXkFtZTcwMDAyMDg5MQ@@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Monster Movie",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTAwNTE1NzU1MTJeQTJeQWpwZ15BbWU3MDMyMjA4OTE@._V1_QL75_UX500_CR0,35,500,281_.jpg"
+        },
+        {
+            "name": "Yellow Fever",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODlhOTgwYmMtZTZlYy00YzJiLTg0MTMtYTU4NzhhN2EwMjI1XkEyXkFqcGdeQXVyODA5ODcxNDk@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "It's the Great Pumpkin, Sam Winchester",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjAyNzc5MDEyMV5BMl5BanBnXkFtZTcwOTYzNjEwMg@@._V1_QL75_UX500_CR0,236,500,281_.jpg"
+        },
+        {
+            "name": "Wishful Thinking",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjc1NzA0ZWItYTYzOC00NDk2LWJlMjAtNDQzNzFjZjg2NWFkXkEyXkFqcGdeQXVyODc0NjQ1MTY@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "I Know What You Did Last Summer",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzY5MjMyMTYzNl5BMl5BanBnXkFtZTcwOTU1OTUwMg@@._V1_QL75_UX500_CR0,236,500,281_.jpg"
+        },
+        {
+            "name": "Heaven and Hell",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGFiYmU1OGEtZjFlMS00MjE4LWI2YmYtNTg0NjlkNWE4NWZkXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+        },
+        {
+            "name": "Family Remains",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTMwMTEyOTM1M15BMl5BanBnXkFtZTcwOTc1ODUyMg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Criss Angel Is a Douche Bag",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZGMxM2M3OWUtZTQxNy00Zjg1LWE4NzgtY2U3MGIxNDFhOTY0XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "After School Special",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTMxNjY5MjY5Ml5BMl5BanBnXkFtZTcwMzAxMDkyMg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Sex and Violence",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTU2ODQyNjYyM15BMl5BanBnXkFtZTcwNzgwMjAzMg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Death Takes a Holiday",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODY5MjYyMzU5Nl5BMl5BanBnXkFtZTcwMTE4ODkzMg@@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "On the Head of a Pin",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTc2NjUzODQ0M15BMl5BanBnXkFtZTcwMzM1NTE0Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "It's a Terrible Life",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMWI5OGYxYjktNzZmYS00ZDg4LWEyM2QtZjY0ZGZhZmFkN2UyXkEyXkFqcGdeQXVyODA5ODcxNDk@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Monster at the End of This Book",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTg4ODAwNTUyOV5BMl5BanBnXkFtZTcwOTIzNzQ0Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Jump the Shark",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNjE5OTI1NjA3MV5BMl5BanBnXkFtZTcwNTUzNTk0Mg@@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "The Rapture",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTVkMmEyZWEtODc5Ny00YTE4LWJhMDMtNDZlZjkwM2VjOTUxXkEyXkFqcGdeQXVyNTgzOTI2MA@@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "When the Levee Breaks",
+            "number": 21,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNWY5YWM0OTktYTZhZi00NTYwLTgwZTQtYWIzYjg0YWE2ZGRkXkEyXkFqcGdeQXVyNjI2MjMxNzY@._V1_QL75_UY281_CR1,0,500,281_.jpg"
+        },
+        {
+            "name": "Lucifer Rising",
+            "number": 22,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTk1ODY3ODYwOV5BMl5BanBnXkFtZTcwNzgwODU1Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        }
+    ]
+}

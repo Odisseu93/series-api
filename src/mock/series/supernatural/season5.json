@@ -1,0 +1,114 @@
+{
+    "episodios": [
+        {
+            "name": "Sympathy for the Devil",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTU5OTUzMTI3OV5BMl5BanBnXkFtZTcwNzY4NTk3Mg@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Good God, Y'All",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTkwOTkwMjc0N15BMl5BanBnXkFtZTcwMzc1MDQ4Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Free to Be You and Me",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTY0ODgzNzA1M15BMl5BanBnXkFtZTcwMzM2MDY4Mg@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "The End",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTMwOTUzMzQ1OV5BMl5BanBnXkFtZTcwNjU2MDY4Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Fallen Idols",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTkwMDE1MjgzN15BMl5BanBnXkFtZTcwNTY3NTk4Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "I Believe the Children Are Our Future",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjIwODY5MDAxOF5BMl5BanBnXkFtZTcwMTc2NjI5Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Curious Case of Dean Winchester",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTg2ODkwMzk4MF5BMl5BanBnXkFtZTcwNTc2NjI5Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Changing Channels",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTYxMDQ3NTc3OV5BMl5BanBnXkFtZTcwNzc2NjI5Mg@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Real Ghostbusters",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTcyMTM3MzU1Nl5BMl5BanBnXkFtZTcwNDkxNzg5Mg@@._V1_QL75_UX500_CR0,32,500,281_.jpg"
+        },
+        {
+            "name": "Abandon All Hope",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjIzNTUxMzE3M15BMl5BanBnXkFtZTcwMjE4NTAwMw@@._V1_QL75_UX500_CR0,30,500,281_.jpg"
+        },
+        {
+            "name": "Sam, Interrupted",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNjYwMGM5OGQtOTVlMi00NGEyLWIyMjYtYmE4OTI5ZTIyYjVhXkEyXkFqcGdeQXVyNTgzOTI2MA@@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Swap Meat",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzEzMjQ3NjktMWFiZi00YjAxLTg2YzYtOWNhODU1MWQwN2Q3XkEyXkFqcGdeQXVyNTgzOTI2MA@@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Song Remains the Same",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjEyOTM2OTkxMV5BMl5BanBnXkFtZTcwNTMwODMxMw@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "My Bloody Valentine",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjA3MjQwNDY5NF5BMl5BanBnXkFtZTcwMDQ4MTgxMw@@._V1_QL75_UX500_CR0,36,500,281_.jpg"
+        },
+        {
+            "name": "Dead Men Don't Wear Plaid",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTI4MTA0NDU5NV5BMl5BanBnXkFtZTcwNjQwOTUyMw@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Dark Side of the Moon",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTQ4NDU4ODUxNF5BMl5BanBnXkFtZTcwODAwMDEzMw@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "99 Problems",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODg1NzMwMDUtZDZhOS00NjkwLTkzNmQtMWE2Yjg0NzVlMWM1XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+        },
+        {
+            "name": "Point of No Return",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzQwMTgyNzUzMV5BMl5BanBnXkFtZTcwNjUyNzQzMw@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Hammer of the Gods",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjA3ODAyNTY0NV5BMl5BanBnXkFtZTcwNDgwODUzMw@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "The Devil You Know",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTk3OTg0MjQ0OF5BMl5BanBnXkFtZTcwNDEyNDI0Mw@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Two Minutes to Midnight",
+            "number": 21,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTAyMjM3ODU4NzheQTJeQWpwZ15BbWU3MDIyMjQyNDM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Swan Song",
+            "number": 22,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzAxMTQ3NzUzNV5BMl5BanBnXkFtZTcwMTg2OTU0Mw@@._V1_QL75_UX500_CR0,32,500,281_.jpg"
+        }
+    ]
+}

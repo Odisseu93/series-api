@@ -1,0 +1,114 @@
+{
+    "episodios": [
+        {
+            "name": "In My Time of Dying",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzhmZTlkZjAtNmM0Mi00YTUwLTg5NTItMDc3MzY1NWIyOTg3XkEyXkFqcGdeQXVyNTgyNDM1OTU@._V1_QL75_UX500_CR0,77,500,281_.jpg"
+        },
+        {
+            "name": "Everybody Loves a Clown",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYjA5Mzk4ZTQtMDgwNi00MmIzLWFlOGUtNjUyNTkzMDI4MzkwXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Bloodlust",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzIzNTQwYmUtNDM4MS00YWVkLThlOTAtMTFiYzM4M2FmYTkzXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Children Shouldn't Play with Dead Things",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTY0ZGYxNjQtNjJhYi00NDljLTg3YmUtMTUzZGI2MjI4OGJkXkEyXkFqcGdeQXVyNzI4NjMwNDM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Simon Said",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BM2E5ZWY5MTMtYjVjZC00ZjIyLTljNWYtZGFjMTg1ZDE2ZDViXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "No Exit",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYjI0ZWI4MjctMWYwNy00N2NlLTlhNjYtYjcxNTgwMjBhNTUyXkEyXkFqcGdeQXVyNzI4NjMwNDM@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Usual Suspects",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMDBkYmViM2MtOTBlZC00OTMxLTlmNjItMWI3NGM3YzRkMTZhXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,234,500,281_.jpg"
+        },
+        {
+            "name": "Crossroad Blues",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjhlNjc2OWUtNTUwNy00YjMxLTg5OTEtNjhiYjhjZDc1MjkwXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Croatoan",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNDYzNGQwMDYtMmQ1NS00NTFhLTk4NWUtY2MzMDQ2ZWZhNmFiXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Hunted",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjdmMWIwYzYtNzdlZC00NjBkLWI5ZTMtNGRiYzMyZGFlOTQ2XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Playthings",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTU4Njg4OTkzNV5BMl5BanBnXkFtZTYwODE2MjI3._V1_QL75_UX500_CR0,27,500,281_.jpg"
+        },
+        {
+            "name": "Nightshifter",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODY1Mjc1MDQ1N15BMl5BanBnXkFtZTYwODM2MjI3._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Houses of the Holy",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjBmMDk2OGEtM2RiNC00MDU0LWExNmQtMzM1Y2Y1ZDg1OTY1XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+        },
+        {
+            "name": "Born Under a Bad Sign",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTIxNTE5NjU5N15BMl5BanBnXkFtZTYwMTI2MjI3._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Tall Tales",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTY4OTQyMTkzMl5BMl5BanBnXkFtZTYwMzI2MjI3._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Roadkill",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjc1OTIwMmEtMzM2Mi00OTM3LTg3M2ItYWM5NzNmMGJmMTExXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,43,500,281_.jpg"
+        },
+        {
+            "name": "Heart",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGIzYmFkYzItY2M2Ny00MWZlLWFiNGYtZDA3YzY2MmUzN2JmXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,42,500,281_.jpg"
+        },
+        {
+            "name": "Hollywood Babylon",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BM2FkOWYyMjAtZWMwMS00NWZiLThkY2UtYTNkZGE3NjlhNjczXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Folsom Prison Blues",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BY2Y2MGIzZDQtNDFlOC00ZWQxLTk1YjItODU3NjkyNGIzNmFjXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,24,500,281_.jpg"
+        },
+        {
+            "name": "What Is and What Should Never Be",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTA0MWE5MGItYTRkMS00ZGRiLThlZjEtYjRkMzMyNGQwYzU4XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,18,500,281_.jpg"
+        },
+        {
+            "name": "All Hell Breaks Loose: Part 1",
+            "number": 21,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTcyNjY4ODM5N15BMl5BanBnXkFtZTgwMDc5MzYyMjE@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+        },
+        {
+            "name": "All Hell Breaks Loose: Part 2",
+            "number": 22,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGQ5MDQxMTMtMTRmOS00ZjU2LTg2ODUtZGQ1ZmQyZDk0ODM3XkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_QL75_UX500_CR0,61,500,281_.jpg"
+        }
+    ]
+}

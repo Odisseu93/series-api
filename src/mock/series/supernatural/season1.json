@@ -1,0 +1,114 @@
+{
+    "episodios": [
+        {
+            "name": "Pilot",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzE1Y2M5MWItOTUyNC00MjhlLWE3YWItMTgxNjdiYWEyNjc3XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Wendigo",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZWNlM2MxYzAtNzBjYS00YzA5LTgyM2UtZWQ2ZjkzNmExZWU4XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Dead in the Water",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYTMwZTk1YzYtY2NjNC00YzgxLThhNDMtZDBmZGE2ZTE4ZmM0XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,40,500,281_.jpg"
+        },
+        {
+            "name": "Phantom Traveler",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNDQ4NTYzNWYtMjJkZi00Yjc5LWIxZmItNmE5ZmE5MmFmOWJlXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Bloody Mary",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzExODFmZWYtNzNjOC00MWFjLWEwZjctYWRjZDZlMGRmODJhXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,236,500,281_.jpg"
+        },
+        {
+            "name": "Skin",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTA3ZmFlMzEtZWJhNS00M2Y2LWI0NGQtYjk5ZWRhY2MxMzlkXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Hook Man",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTU5ZTJhMzAtMmY0Ny00YWY3LWJiNzMtN2I4ODdkZjRjZTliXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,34,500,281_.jpg"
+        },
+        {
+            "name": "Bugs",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNmJlMzRmNWEtZWI0ZS00ODAzLTllZjUtNmM1NDY5ZTY4MGUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjUyMDI4Mzc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Home",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMWVmYTU4MGYtMTRlNS00NDU1LWI3M2YtNjkyNTAyYzQ4NGJiXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Asylum",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNWM4YjVkZjAtNWY4OC00YTc1LWE3OWQtN2IzOGI3ZjBkNWRhXkEyXkFqcGdeQXVyNzI4NjMwNDM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Scarecrow",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BN2MwYmJjNDktYzk3NS00ZWEzLTg4ZDctNmQ4ZWZjMTRhM2EyXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,29,500,281_.jpg"
+        },
+        {
+            "name": "Faith",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMmU5MTA0NzAtYzE0NS00MjAwLWE5ZTYtMTBmMDEyNTUzODM2XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,31,500,281_.jpg"
+        },
+        {
+            "name": "Route 666",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZWIyMDQyNmEtYTUzNi00NWY2LWExYjMtNzUzOGEwZTU2MWI5XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Nightmare",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTBmOWQ5ODAtMDYwNC00Mzk0LTk4YWItNDIzMDBjZWM1MTkwXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Benders",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDMxMmVkNjgtYjYwZS00OGNjLTk5MDEtMDI2ZGMyN2JjODRmXkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Shadow",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzEyOGFkMDQtMDZkYi00Y2M3LWIxOGItZDRkYzQxNTI4NjlhXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Hell House",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzc5MGNhOTAtN2M3Yi00YWM0LWJmMjYtYTgxOTFkOGY4Nzk2XkEyXkFqcGdeQXVyNTgzMjQ1NDg@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Something Wicked",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMmUwNDRhMDktMzdiMy00MWEyLWE4NTUtMGU3YTZjOTkyODUyXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Provenance",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGQ5MWFmY2ItY2UxNS00MTQwLWE0MGItMzU1Zjg0ZDg1NWUyXkEyXkFqcGdeQXVyNjYyMTc1ODY@._V1_QL75_UX500_CR0,31,500,281_.jpg"
+        },
+        {
+            "name": "Dead Man's Blood",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDE5Y2I5Y2ItNTVhYy00Y2VhLWFkMjktYmUyNzFiNDBhMTA1XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,25,500,281_.jpg"
+        },
+        {
+            "name": "Salvation",
+            "number": 21,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTUyMjYzMjY5NF5BMl5BanBnXkFtZTgwNDMyNTUyMjE@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+        },
+        {
+            "name": "Devil's Trap",
+            "number": 22,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTQ2YTIyMWMtMTQ3ZS00ZTRkLWI2ZTgtYzkwMTllZTM4MGE4XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,27,500,281_.jpg"
+        }
+    ]
+}

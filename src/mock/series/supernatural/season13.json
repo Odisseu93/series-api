@@ -1,0 +1,119 @@
+{
+    "episodios": [
+        {
+            "name": "Lost and Found",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BY2Y0YmQ2OWEtODAwMy00OGUzLTlkYzMtYzQ5Y2I3ZjZjMTMxXkEyXkFqcGdeQXVyNzQ0MDUyMzg@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Rising Son",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTk0NmI5MzUtN2E5My00OTk5LTk4MzAtYzM1MmQ4OGZhOTNmXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Patience",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOWYxOTY1MWMtZWIzNy00NGJhLWI1NTgtN2I5MmExZGY2ZWVkXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Big Empty",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNGQyYjk0ZWQtOWZjYi00MjY5LTljNmMtYTAyNzVmNWZhMDAxXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Advanced Thanatology",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYWYwNDEyZTYtMDcxYy00OWFmLWI5YmEtMjdjMzZkZTFkOGQzXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Tombstone",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOThhZmQwYTAtNGFkMy00MjQwLWJlMzItN2MzZWYyMGMyMTlmXkEyXkFqcGdeQXVyODUwNzc2NzY@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "War of the Worlds",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTI3ZGYzZWYtY2E4OS00OGRiLWEwYTctYjM5NzI1Mjg2M2QyXkEyXkFqcGdeQXVyODcxNDI3NzM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Scorpion and the Frog",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzEwZDVkNzUtM2FlNi00MTViLThkOGUtMzUzYmZhYmMxYjkyXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Bad Place",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMDUyZDBlMmYtMGQ2OC00YWM5LWFiN2UtNmM3MGU0OTZjNjBhXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Wayward Sisters",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjc1NzUwZjAtYzM5Zi00ZjQ2LTg4NWQtY2EzYWI2OGM3ZmVkXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Breakdown",
+            "number": 11,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BM2YwOGEwZjAtNjQwYS00NTdlLTlhMzctN2I2YmJkYWMxZjU2XkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Various & Sundry Villains",
+            "number": 12,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOTk5MDA3ZGQtMDdjNi00Nzc5LWFmYTEtMTA0YTExNjQyYTM4XkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Devil's Bargain",
+            "number": 13,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMGFhYzhlOTQtZDI0ZC00NGQyLTgyNmUtZWJlOTQ4ZDBhMjBkXkEyXkFqcGdeQXVyODcxNDI3NzM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Good Intentions",
+            "number": 14,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BY2VmYTkyZjUtNzY4Ni00ZjEyLTk4MjUtZDA1NDdiNGRlMWQ1XkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "A Most Holy Man",
+            "number": 15,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNGFlNzBkN2YtMTE0ZC00ZDgyLTk4NmYtYjMyODQ3YmE3MjdiXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "ScoobyNatural",
+            "number": 16,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjEwNTQzMTIwMV5BMl5BanBnXkFtZTgwOTE2NjkwNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Thing",
+            "number": 17,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BN2RiZmJiYWUtOTFlMi00MTBhLWFhNTAtNTcyZTc4MTkyZjg5XkEyXkFqcGdeQXVyODcxNDI3NzM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Bring 'em Back Alive",
+            "number": 18,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjY5NmE2MmQtOWFjZC00ZmVmLWJjZmQtZTUyZjY5ODVkNTVhXkEyXkFqcGdeQXVyNTgzOTI2MA@@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Funeralia",
+            "number": 19,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BM2JjMzNhZjMtMGQ0ZS00Njk2LThiN2YtNDY1MTE3NDIzOTM4XkEyXkFqcGdeQXVyODcxNDI3NzM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Unfinished Business",
+            "number": 20,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTViYzY1NTYtNWIyYy00ZWE2LWE2M2MtNWUxYmI1MWViOGZmXkEyXkFqcGdeQXVyODU0OTMwNjg@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Beat the Devil",
+            "number": 21,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGIyMGRjZDMtODdhYS00YzRmLWJhMzUtZDNkMWE2MTk1ZTQ2XkEyXkFqcGdeQXVyODM2NzM1Mzk@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Exodus",
+            "number": 22,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODhlOWVjOGQtM2NiMy00ZGUyLWFhNWYtYTQ0ZTgwMGFkYzRiXkEyXkFqcGdeQXVyODcxNDI3NzM@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Let the Good Times Roll",
+            "number": 23,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNGYwZmM4MDUtMmQ0Yi00MTlkLTlkN2UtODdiMjczNTJiMDFkXkEyXkFqcGdeQXVyNTgzOTI2MA@@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        }
+    ]
+}
