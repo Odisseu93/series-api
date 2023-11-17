@@ -1,4 +1,3 @@
-import { SeriesDTO } from 'src/dtos'
 import { SeriesFactory } from './seriesFactory'
 import Ajv from 'ajv'
 
@@ -12,111 +11,66 @@ describe('Test all SeriesFactory methods', () => {
   describe('Should be able to add a new series', () => {
     it('When all parameters are provided', () => {
       const input = {
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
         name: 'Supernatural',
       }
 
       const sut = factory.registerSeries(input)
 
-      expect(input.id).toEqual(sut.id)
+      expect(sut).toHaveProperty('id')
       expect(input.name).toEqual(sut.name)
     })
   })
 
   describe('Should not be able to add a new series', () => {
-    it('Throws an error when id is missing', () => {
-      expect(() => {
-        factory.registerSeries({ id: '', name: 'Test Series' })
-      }).toThrow('id is required!')
-    })
-
     it('Throws an error when name is missing', () => {
       expect(() => {
         factory.registerSeries({
-          id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
           name: '',
         })
       }).toThrow('name is required!')
-    })
-
-    it('Throws an error when id and name is missing', () => {
-      expect(() => {
-        factory.registerSeries({
-          id: '',
-          name: '',
-        })
-      }).toThrow()
     })
   })
 
   describe('Should be able to add seasons of a series', () => {
     it('when all parameters are provided', () => {
       const series = factory.registerSeries({
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
         name: 'Supernatural',
       })
 
-      const sut = factory.registerSeason(
-        {
-          id: '4140c062-7e56-11ee-b962-0242ac120002',
-          serieId: series.id,
-          number: 1,
-        },
-        series
-      )
+      const sut = factory.registerSeason({
+        seriesId: series.id,
+        number: 1,
+      })
 
-      expect(sut).toHaveProperty('id' && 'serieId' && 'number')
-      expect(sut.id).toEqual('4140c062-7e56-11ee-b962-0242ac120002')
-      expect(sut.serieId).toEqual('634aa6f6-7e3c-11ee-b962-0242ac120002')
+      expect(sut).toHaveProperty('id' && 'seriesId' && 'number')
+      expect(sut).toHaveProperty('id')
       expect(sut.number).toEqual(1)
     })
   })
 
   describe('Should not be able to add seasons of a series', () => {
     it('when some or all parameters are missing', () => {
-      const series = factory.registerSeries({
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
+      factory.registerSeries({
         name: 'Supernatural',
       })
 
       expect(() => {
-        factory.registerSeason(
-          {
-            id: '',
-            serieId: series.id,
-            number: 1,
-          },
-          series
-        )
-      }).toThrow('id is required!')
-
-      expect(() => {
-        factory.registerSeason(
-          {
-            id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-            serieId: '',
-            number: 1,
-          },
-          series
-        )
-      }).toThrow()
-
-      expect(() => {
-        factory.registerSeason(
-          {
-            id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-            serieId: '',
-            number: 0,
-          },
-          series
-        )
-      }).toThrow()
-
-      expect(() => {
-        // @ts-expect-error missing parameters
         factory.registerSeason({
-          id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-          serieId: '',
+          seriesId: '',
+          number: 1,
+        })
+      }).toThrow()
+
+      expect(() => {
+        factory.registerSeason({
+          seriesId: '',
+          number: 0,
+        })
+      }).toThrow()
+
+      expect(() => {
+        factory.registerSeason({
+          seriesId: '',
           number: 1,
         })
       }).toThrow()
@@ -131,32 +85,22 @@ describe('Test all SeriesFactory methods', () => {
   describe('Should be able to add episodes of a season', () => {
     it('when some or all parameters are missing', () => {
       const series = factory.registerSeries({
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
         name: 'Supernatural',
       })
 
-      const season = factory.registerSeason(
-        {
-          id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-          serieId: series.id,
-          number: 1,
-        },
-        series
-      )
+      const season = factory.registerSeason({
+        seriesId: series.id,
+        number: 1,
+      })
 
-      const sut = factory.registerEpisode(
-        {
-          id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
-          name: 'pilot',
-          thumb:
-            'https://m.media-amazon.com/images/M/MV5BMzE1Y2M5MWItOTUyNC00MjhlLWE3YWItMTgxNjdiYWEyNjc3XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg',
-          number: 1,
-          seriesId: series.id,
-          seasonId: season.id,
-        },
-        series,
-        season
-      )
+      const sut = factory.registerEpisode({
+        name: 'pilot',
+        thumb:
+          'https://m.media-amazon.com/images/M/MV5BMzE1Y2M5MWItOTUyNC00MjhlLWE3YWItMTgxNjdiYWEyNjc3XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_QL75_UX500_CR0,26,500,281_.jpg',
+        number: 1,
+        seriesId: series.id,
+        seasonId: season.id,
+      })
 
       expect(sut).toHaveProperty(
         'id' && 'name' && 'number' && 'seriesId' && 'seasonId'
@@ -167,126 +111,60 @@ describe('Test all SeriesFactory methods', () => {
   describe('Should not be able to add episodes of a season', () => {
     it('when some or all parameters are missing', () => {
       const series = factory.registerSeries({
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
         name: 'Supernatural',
       })
 
-      const season = factory.registerSeason(
-        {
-          id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-          serieId: series.id,
-          number: 1,
-        },
-        series
-      )
+      const season = factory.registerSeason({
+        seriesId: series.id,
+        number: 1,
+      })
 
       expect(() => {
-        factory.registerEpisode(
-          {
-            id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
-            name: 'pilot',
-            number: -10,
-            seriesId: series.id,
-            seasonId: season.id,
-          },
-          series,
-          season
-        )
+        factory.registerEpisode({
+          name: 'pilot',
+          number: -10,
+          seriesId: series.id,
+          seasonId: season.id,
+        })
       }).toThrow("The 'number' field needs be greater than zero!")
 
       expect(() => {
-        factory.registerEpisode(
-          {
-            id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
-            name: 'pilot',
-            number: 1,
-            seriesId: '4e46c470-8264-11ee-b962-0242ac120002',
-            seasonId: season.id,
-          },
-          series,
-          season
-        )
-      }).toThrow("This TV show or this season doesn't exist!")
+        factory.registerEpisode({
+          name: 'pilot',
+          number: 1,
+          seriesId: '4e46c470-8264-11ee-b962-0242ac120002',
+          seasonId: season.id,
+        })
+      }).toThrow("This TV show doesn't exist!")
 
       expect(() => {
-        factory.registerEpisode(
-          {
-            id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
-            name: 'pilot',
-            number: 1,
-            seriesId: series.id,
-            seasonId: '4e46c470-8264-11ee-b962-0242ac120002',
-          },
-          series,
-          season
-        )
-      }).toThrow("This TV show or this season doesn't exist!")
+        factory.registerEpisode({
+          name: 'pilot',
+          number: 1,
+          seriesId: series.id,
+          seasonId: '4e46c470-8264-11ee-b962-0242ac120002',
+        })
+      }).toThrow("This season doesn't exist!")
     })
   })
 
   describe('It should be possible to retrieve data from the series', () => {
-    it('when searching for a series by id', () => {
-      const series = factory.registerSeries({
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-        name: 'Supernatural',
-      })
-
-      const season = factory.registerSeason(
-        {
-          id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-          serieId: series.id,
-          number: 1,
-        },
-        series
-      )
-
-      factory.registerEpisode(
-        {
-          id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
-          name: 'pilot',
-          number: 1,
-          seriesId: series.id,
-          seasonId: season.id,
-        },
-        series,
-        season
-      )
-
-      const sut = factory.getSeriesData()
-
-      expect(
-        JSON.parse(sut).find(({ id }: SeriesDTO) => {
-          return id === '634aa6f6-7e3c-11ee-b962-0242ac120002'
-        }).id
-      ).toEqual(series.id)
-    })
-
     it('The json is valid', () => {
       const series = factory.registerSeries({
-        id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
         name: 'Supernatural',
       })
 
-      const season = factory.registerSeason(
-        {
-          id: '634aa6f6-7e3c-11ee-b962-0242ac120002',
-          serieId: series.id,
-          number: 1,
-        },
-        series
-      )
+      const season = factory.registerSeason({
+        seriesId: series.id,
+        number: 1,
+      })
 
-      factory.registerEpisode(
-        {
-          id: 'fbd3ca84-b1ba-4e39-9346-50a96d297cac',
-          name: 'pilot',
-          number: 1,
-          seriesId: series.id,
-          seasonId: season.id,
-        },
-        series,
-        season
-      )
+      factory.registerEpisode({
+        name: 'pilot',
+        number: 1,
+        seriesId: series.id,
+        seasonId: season.id,
+      })
 
       const sut = factory.getSeriesData()
 
