@@ -1,15 +1,24 @@
+import {
+  RegisterEpisode,
+  RegisterSeason,
+  RegisterSeries,
+} from 'src/factories/types'
 import { SeriesDTO, SeasonDTO, EpisodeDTO } from '.'
 
 export interface SeriesFactoryDTO {
-  registerSeries(props: SeriesDTO): SeriesDTO
+  registerSeries({ name }: RegisterSeries): SeriesDTO
 
-  registerSeason(props: SeasonDTO, serie: SeriesDTO): SeasonDTO
+  registerSeason({ number, serieId, series }: RegisterSeason): SeasonDTO
 
-  registerEpisode(
-    props: EpisodeDTO,
-    serie: SeriesDTO,
-    season: SeasonDTO
-  ): EpisodeDTO
+  registerEpisode({
+    name,
+    number,
+    seriesId,
+    seasonId,
+    thumb,
+    series,
+    season,
+  }: RegisterEpisode): EpisodeDTO
 
   getSeriesData(): string
 }
