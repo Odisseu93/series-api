@@ -1,8 +1,10 @@
 import { Validation } from '../helpers/validation'
+import uuid from '../utils/uuid'
 
 import { EpisodeDTO, SeasonDTO, SeriesDTO } from '../dtos'
 import { GetSeriesDataDTO } from '../dtos/getSeriesData.dto'
 import { SeriesFactoryDTO } from '../dtos/seriesFactory.dto'
+import { RegisterEpisode, RegisterSeason, RegisterSeries } from './types'
 
 const validate = new Validation()
 
@@ -27,14 +29,6 @@ export class SeriesFactory implements SeriesFactoryDTO {
           episodes: episodesData,
         }
       })
-  // .filter(({ id }) => id === seriesId)
-  // .map(({ id: seasonId, number: seasonNumber }) => {
-  //   const episodesData = this._getEpisodesData(seasonId)
-  //   return {
-  //     n: seasonNumber,
-  //     episodes: episodesData,
-  //   }
-  // })
 
   private _formatEpisodes = (
     currentSeasonId: string,
@@ -50,7 +44,9 @@ export class SeriesFactory implements SeriesFactoryDTO {
         }
       })
 
-  registerSeries({ id, name }: SeriesDTO): SeriesDTO {
+  registerSeries({ name }: RegisterSeries): SeriesDTO {
+    const id = uuid()
+
     validate.required(id, 'id')
     validate.isUUID(id)
     validate.required(name, 'name')
@@ -64,21 +60,18 @@ export class SeriesFactory implements SeriesFactoryDTO {
     return series
   }
 
-  registerSeason(data: SeasonDTO, serie: SeriesDTO): SeasonDTO {
-    const { id, number, serieId } = data
+  registerSeason({ number, seriesId }: RegisterSeason): SeasonDTO {
+    const id = uuid()
 
     validate.required(id, 'id')
     validate.isUUID(id)
     validate.required(number, 'number')
     validate.greaterThanZero(number, 'number')
-    validate.required(serieId, 'serieId')
-    validate.isUUID(serieId)
+    validate.required(seriesId, 'serieId')
+    validate.isUUID(seriesId)
+    validate.seriesExists(this._series, seriesId)
 
-    const serieDoesNotExist = !serie['id'].includes(serieId)
-
-    if (serieDoesNotExist) throw new Error("This TV show doesn't exist!")
-
-    const seasonData = { id, number, serieId } as SeasonDTO
+    const seasonData = { id, number, serieId: seriesId } as SeasonDTO
 
     const season = new SeasonDTO(seasonData)
 
@@ -87,12 +80,14 @@ export class SeriesFactory implements SeriesFactoryDTO {
     return season
   }
 
-  registerEpisode(
-    props: EpisodeDTO,
-    serie: SeriesDTO,
-    season: SeasonDTO
-  ): EpisodeDTO {
-    const { id, name, thumb, number, seriesId, seasonId } = props
+  registerEpisode({
+    name,
+    thumb,
+    number,
+    seriesId,
+    seasonId,
+  }: RegisterEpisode): EpisodeDTO {
+    const id = uuid()
 
     validate.required(id, 'id')
     validate.isUUID(id)
@@ -101,12 +96,8 @@ export class SeriesFactory implements SeriesFactoryDTO {
     validate.required(name, 'name')
     validate.isUUID(seriesId)
     validate.isUUID(seasonId)
-
-    const serieDoesNotExist =
-      !serie['id'].includes(seriesId) || !season['id'].includes(seasonId)
-
-    if (serieDoesNotExist)
-      throw new Error("This TV show or this season doesn't exist!")
+    validate.seriesExists(this._series, seriesId)
+    validate.seasonExists(this._seasons, seasonId)
 
     const epsodioData = {
       id,
