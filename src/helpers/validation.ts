@@ -1,3 +1,4 @@
+import { SeriesDTO, SeasonDTO } from 'src/dtos'
 import customError from './erros/customErrors'
 
 export class Validation {
@@ -23,6 +24,22 @@ export class Validation {
   greaterThanZero(value: number, fieldName: string) {
     if (value <= 0)
       customError(`The '${fieldName}' field needs be greater than zero!`)
+    return true
+  }
+
+  seriesExists(seriesList: SeriesDTO[], serieId: string) {
+    const found = seriesList.find(
+      (currentSeries) => currentSeries.id === serieId
+    )
+
+    if (!found) customError("This TV show doesn't exist!")
+    return true
+  }
+
+  seasonExists(seasons: SeasonDTO[], seasonId: string) {
+    const found = seasons.find((currentSeason) => currentSeason.id === seasonId)
+
+    if (!found) customError("This season doesn't exist!")
     return true
   }
 }
