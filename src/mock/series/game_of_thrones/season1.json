@@ -1,0 +1,54 @@
+{
+    "episodes": [
+        {
+            "name": "Winter Is Coming",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMmVhODQ1NmUtMzJiYi00MGNiLWExNmQtYmUxNGJmY2U5ZmJlXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Kingsroad",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzhhOTkzOGQtZTI3Zi00NzkyLWIyOWItZmYxYWYyMTRlNzI1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Lord Snow",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjcwNzEyNjYtYWJiOC00NGJhLWFlNzctYmMwNTgwNzJlYjUxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Cripples, Bastards, and Broken Things",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMDc0ZTY1MjctOTFiOS00NTY3LWEzZWYtZGMxN2MxODFhNGEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Wolf and the Lion",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNDVkY2VhNzYtZGJkOC00NWRjLWJiZTgtMjI4YmI3ZTU0Y2E4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "A Golden Crown",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOWU1NzMxMTQtY2IzNy00NGRmLTk3MmYtNGVhNTY5MzYyNTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "You Win or You Die",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNDJjODBhMTctMzUxMC00MzUwLTk2YzQtMDAzNGJjMzY3MjM0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Pointy End",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYTA3YmMzZmQtZmNkOC00NTkyLWFiY2YtMWVmODI2NjRhZmFjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Baelor",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZjkwMjQ4MDYtNzNmYy00ODRlLWI1MTEtODFjZGE2ZjRkMmNjXkEyXkFqcGdeQXVyMjAwNDk0MDA@._V1_QL75_UY281_CR3,0,500,281_.jpg"
+        },
+        {
+            "name": "Fire and Blood",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNDY5ODdkNzEtMzY0Yi00MTIzLWE3YzQtYzE0M2IzMjY4OThhXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "episodes": [
+        {
+            "name": "Two Swords",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOTZjY2YwMGYtMzRjYS00NzIxLTllMmQtMTFhMzgxNGNiNGJkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Lion and the Rose",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTE5ZjRkODItZDVmZi00MzY2LWE5OGEtZjBmMmY4MTQ1OTdkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Breaker of Chains",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTU5MzI5MzEzNl5BMl5BanBnXkFtZTgwMzQyMzI2MTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Oathkeeper",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDNlMDRkZDktNWIwNy00NzA2LWI4NWEtZDA5ZmE0MzYzMmNiXkEyXkFqcGdeQXVyMjA3MDk2MDE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "First of His Name",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNjRhM2NiODctOWQ3Zi00MjBkLWFkMjctYTVmMDljMTg0MjIzXkEyXkFqcGdeQXVyMjAwNDk0MDA@._V1_QL75_UX500_CR0,4,500,281_.jpg"
+        },
+        {
+            "name": "The Laws of Gods and Men",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTUxMjIwMjYyMV5BMl5BanBnXkFtZTgwNTE2OTg3MTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Mockingbird",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYWRiZmNlZDctNjc4OS00ZTFlLWE3YmUtMGQ5M2NkZmI4ODc5XkEyXkFqcGdeQXVyNTA4NzExMDg@._V1_QL75_UX500_CR0,17,500,281_.jpg"
+        },
+        {
+            "name": "The Mountain and the Viper",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTAzNDAxMTQ5MDdeQTJeQWpwZ15BbWU4MDMyODAxOTEx._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Watchers on the Wall",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMDhiOGNiOTYtNzJjMy00ZjQ1LTliYzMtZjY4N2RkYTIzMTk3XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Children",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTM5YzI1NmUtNDA5YS00Yzk3LThkYjAtMGUxNzhhYjg5ZTU3XkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_QL75_UX500_CR0,35,500,281_.jpg"
+        }
+    ]
+}

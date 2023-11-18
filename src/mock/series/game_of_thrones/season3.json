@@ -1,0 +1,54 @@
+{
+    "episodes": [
+        {
+            "name": "Valar Dohaeris",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTg5NTA0OTA1MV5BMl5BanBnXkFtZTcwMzgyMTEwOQ@@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Dark Wings, Dark Words",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNjE2MTIwY2MtOGVmMS00Nzk1LWEwMWEtM2Y3NjM2ZDQ4MDU3XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Walk of Punishment",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZTA0ZTMwMTQtYjY2MC00ZmQ0LWI4NDAtOTc4YzEzZWIwOTRkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "And Now His Watch Is Ended",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTk1YTI1MDEtZTU5NC00YzZjLWFhNWYtY2I0MzYyZTQ0YzcyXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Kissed by Fire",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMGRiYjIwYjMtNDcwMC00MWZkLWJhMmUtZjI0YWY4MDY2NzQ5XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Climb",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTVmOGMwNzAtZmE1MS00YzJjLWI0MjEtNzE5N2I2YTMxYjAzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Bear and the Maiden Fair",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOWQ1YTRhYjYtZTE5Yi00YjM4LWEzYzQtM2NiNzJmZTEzY2RiXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Second Sons",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjkwMzcxNTEtOWRkYS00ZDNlLTlmM2UtY2I3MmU3MGRmZmIzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Rains of Castamere",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTU3OTc2MTAxNF5BMl5BanBnXkFtZTcwODMxNDM2OQ@@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Mhysa",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BN2I1MTdkZmQtZDU4My00ODgwLTg4NzctMGEyMDZkM2RmNzAyXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        }
+    ]
+}

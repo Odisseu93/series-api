@@ -1,0 +1,54 @@
+{
+    "episodes": [
+        {
+            "name": "The North Remembers",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZGIyOWFkNDktZWUxZS00YzdkLWJmMGQtOTE1YjBmMzE2ZTlkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Night Lands",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BN2NiOGE2N2UtOTllOS00NGM3LTg4MzQtMmZkNmEyN2EyZGQ4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "What Is Dead May Never Die",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNGQ5MGM2NzEtYzI5My00OTFlLTllMWMtNDFjZGFhYzM3YzUyXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Garden of Bones",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjI4ZTk4MGEtMzc2NS00ZjY1LWExM2EtNzUxODM2ZTVjMWQzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Ghost of Harrenhal",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMWE0NjQ0MDQtM2E1Zi00MmRmLWI1NTUtNjJjMjQxMjY1Y2QxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Old Gods and the New",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOWU5ZGY4YjMtZWYzMi00Mjc4LThkYWEtODY1NjUxNjNlM2NmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "A Man Without Honor",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDllN2IyYzctZmM2Yy00NGM5LWE2OTEtMTk2MDA1YzhhODJmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Prince of Winterfell",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZmI3MzBmNGUtZGNjNC00ODI2LWIwNmMtNDg3ZDc3ZTkwYjllXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Blackwater",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BY2RhZDdhZmYtNzcxOS00MDk1LThmZGEtNTk0Y2FlYjhhYzk1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Valar Morghulis",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzkzM2VhM2YtMGI4Yi00OTNiLTg4NDctNTk0MjIzNjVhNWIwXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,143,500,281_.jpg"
+        }
+    ]
+}

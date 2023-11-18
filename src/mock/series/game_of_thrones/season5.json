@@ -1,0 +1,54 @@
+{
+    "episodes": [
+        {
+            "name": "The Wars to Come",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTk4ODQ0ODQyMl5BMl5BanBnXkFtZTgwMDczODYyNDE@._V1_QL75_UX500_CR0,36,500,281_.jpg"
+        },
+        {
+            "name": "The House of Black and White",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOGNkMTViNjItMGYwZS00NTdlLTg2MDgtNDQzOTZlOWY3ZmFkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "High Sparrow",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjM2NDIzMDkxNV5BMl5BanBnXkFtZTgwMzg2MjQ0NTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Sons of the Harpy",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTk5MzAzNjA4OV5BMl5BanBnXkFtZTgwNzQ4MDA2NTE@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Kill the Boy",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjM5NTE2OTk2M15BMl5BanBnXkFtZTgwMjcyMjQ2NTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Unbowed, Unbent, Unbroken",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODcxNzI2NTI3Ml5BMl5BanBnXkFtZTgwNzc1NDE3NTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Gift",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNjliY2YwNzgtOGM3My00Y2I0LTgzNzgtZDUyYjM3YWM0MDcwXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Hardhome",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTQ5NTc1NTU3NF5BMl5BanBnXkFtZTgwODkxODI4NTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Dance of Dragons",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BY2U1YTY4MjMtYzIxMy00N2NlLThmZWQtODUwNDZmN2I4OGQ4XkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_QL75_UX500_CR0,16,500,281_.jpg"
+        },
+        {
+            "name": "Mother's Mercy",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTg3Njc4ODQ0M15BMl5BanBnXkFtZTgwNTczMjk5NTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        }
+    ]
+}

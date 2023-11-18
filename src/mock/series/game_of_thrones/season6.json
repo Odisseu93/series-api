@@ -1,0 +1,54 @@
+{
+    "episodes": [
+        {
+            "name": "The Red Woman",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjEyNjQ3OTM2MF5BMl5BanBnXkFtZTgwMTg5Njk5NzE@._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Home",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMmMwYzU1NTMtNjAxNC00ZmQ1LThlNGItN2FhZDI2YmRkYmJiXkEyXkFqcGdeQXVyMzc2MDQ4MzA@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Oathbreaker",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYWM2ZTIwODQtMmFlZC00ZmQ1LWJmMGMtMzdhOGQwNWY4NWJhXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Book of the Stranger",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNjQwNjEyMTkzMl5BMl5BanBnXkFtZTgwNDAzNTI5ODE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Door",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTE0NDkwMzYyOV5BMl5BanBnXkFtZTgwMjY5Nzk5ODE@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "Blood of My Blood",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTgzOTEwMjU2M15BMl5BanBnXkFtZTgwOTMyNzYwOTE@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Broken Man",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTI4YWU4MTAtNTBmZS00ZjU2LTk2ODctMTMxZDA2Y2VlMTljXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "No One",
+            "number": 8,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTA3NTM0MzM1NjBeQTJeQWpwZ15BbWU4MDAxMTg2MTkx._V1_QL75_UX500_CR0,235,500,281_.jpg"
+        },
+        {
+            "name": "Battle of the Bastards",
+            "number": 9,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BZDFiZTNiMmItMDk5ZC00OGZmLTk3NmItODM5ZWE2YWMzZjliXkEyXkFqcGdeQXVyOTMyOTQyNzA@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Winds of Winter",
+            "number": 10,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTc0ZjQ5ODctYzRmNC00ZjQ3LWFlZDctN2NjNjY1MTliMjU3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjkxMjM5Nzc@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+        }
+    ]
+}

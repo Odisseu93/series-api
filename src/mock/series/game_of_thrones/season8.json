@@ -1,0 +1,34 @@
+{
+    "episodes": [
+        {
+            "name": "Winterfell",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYmEwZDViYjMtZGNhNC00NzkxLWJlMDMtNWVhZTQ5MWU2YTEzXkEyXkFqcGdeQXVyOTMyOTQyNzA@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "A Knight of the Seven Kingdoms",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BYzZmODZkZjItYmZiOS00MjM4LWE5NWUtMjgwOTJmMTkzZWQ3XkEyXkFqcGdeQXVyMjIyMTc0ODQ@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Long Night",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjRkY2IzYWItMjlmMC00MjJjLWI0ZDAtOWRiNDY5OWUyYWI5XkEyXkFqcGdeQXVyOTMyOTQyNzA@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Last of the Starks",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNzQ2YTYyMzMtMzAwMi00YjkzLWI4ZjUtZmE0NWUzOWUyODE3XkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Bells",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNmUzNWU3MGItYjZmMi00N2VjLWJlNDQtNTU3MTk0MTU4NTk4XkEyXkFqcGdeQXVyNjIwNzU1MzQ@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+            "name": "The Iron Throne",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BOTE0NzM0Y2EtN2NiNC00NzkwLWExZjYtYmYxNTY5ZDg4NzhhXkEyXkFqcGdeQXVyNDg4MjkzNDk@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        }
+    ]
+}

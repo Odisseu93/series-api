@@ -1,0 +1,39 @@
+{
+    "episodes": [
+        {
+            "name": "Dragonstone",
+            "number": 1,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMmM3OWJmMDQtYjAxNC00MjlhLThjYWMtNGM3ZmUxMDZjZWUyXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+        },
+        {
+            "name": "Stormborn",
+            "number": 2,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BODAwNjk2ZTgtN2E1Ny00MmVmLTliMjMtMjRhMTVmOGZiODVlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,54,500,281_.jpg"
+        },
+        {
+            "name": "The Queen's Justice",
+            "number": 3,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BNTg5Njg2MzQ1NF5BMl5BanBnXkFtZTgwNDc4NDEzMzI@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Spoils of War",
+            "number": 4,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjE4MTUxNjEyOF5BMl5BanBnXkFtZTgwMDA0NDEzMzI@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Eastwatch",
+            "number": 5,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMjMyNDMxNDY2NV5BMl5BanBnXkFtZTgwOTIxNDEzMzI@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "Beyond the Wall",
+            "number": 6,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMzM4ODAyNzI1OV5BMl5BanBnXkFtZTgwMzQ5MTkyMzI@._V1_QL75_UX500_CR0,26,500,281_.jpg"
+        },
+        {
+            "name": "The Dragon and the Wolf",
+            "number": 7,
+            "thumb": "https://m.media-amazon.com/images/M/MV5BMTc2MTVkZDYtMmI4My00YjdjLWJhYmYtNWViZGQ2Nzk0NzNkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_QL75_UX500_CR0,44,500,281_.jpg"
+        }
+    ]
+}
