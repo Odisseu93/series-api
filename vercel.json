@@ -2,7 +2,7 @@
   "version": 2,
   "name": "Series API",
   "github": {
-    "enabled": false
+    "enabled": true 
   },
   "builds": [
     {
