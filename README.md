@@ -4,7 +4,7 @@
 This is a simple API created, which lists a certain data set of TV Series or streamings
 
 ## Goal
-Study about creating an API (following the [REST API](https://en.wikipedia.org/wiki/REST)), using Node.js and express
+Study about creating an API (following the [REST API](https://en.wikipedia.org/wiki/REST)), using [Node.js](https://nodejs.org/en), [Express.js](https://expressjs.com/) and [TypeScript](https://www.typescriptlang.org/)
 
 ## Information
 To build this API, mocked data was used, this data was obtained through web scrapping carried out on the website [IMDB](https://www.imdb.com/), the algorithm that was used to obtain this data is documented in this [gist](https://gist.github.com/Odisseu93/8720d1509fbe498225e7634e728677e6)
