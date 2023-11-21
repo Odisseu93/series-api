@@ -29,8 +29,8 @@ export class SeriesController {
           .status(200)
           .contentType('json')
           .send(await result)
-      } catch (error) {
-        res.status(500).json({ message: error })
+      } catch (error: any) {
+        res.status(500).json({ message: error.message })
       }
     }
   }
