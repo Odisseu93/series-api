@@ -25,7 +25,10 @@ export class SeriesController {
       try {
         const result = addSeries(name, dirpath)
 
-        res.status(200).send(await result)
+        res
+          .status(200)
+          .contentType('json')
+          .send(await result)
       } catch (error) {
         res.status(500).json({ message: error })
       }
