@@ -6,6 +6,12 @@ This is a simple API created, which lists a certain data set of TV Series or str
 ## Goal
 Study about creating an API (following the [REST API](https://en.wikipedia.org/wiki/REST)), using [Node.js](https://nodejs.org/en), [Express.js](https://expressjs.com/) and [TypeScript](https://www.typescriptlang.org/)
 
+## Tech Stack
+- [Express.js](https://expressjs.com/)
+- [Node.js](https://nodejs.org/en)
+- [TypesSript](https://www.typescriptlang.org/)
+- [Openai API](https://openai.com/)
+
 ## Information
 To build this API, mocked data was used, this data was obtained through web scrapping carried out on the website [IMDB](https://www.imdb.com/), the algorithm that was used to obtain this data is documented in this [gist](https://gist.github.com/Odisseu93/8720d1509fbe498225e7634e728677e6)
 
@@ -32,6 +38,8 @@ para tests `yarn test` e para o build  `yarn build`
 ## To contribute
 To contribute, first open an [issue](https://github.com/Odisseu93/series-api/issues), saying what will be modified.
 
+## LICENSE
+[MIT](LICENSE.md)
 
 ## Developer
 
